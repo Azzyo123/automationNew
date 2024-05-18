@@ -10,6 +10,7 @@ public class PostSteps {
     @Given("User should be logged and should be present at its own wall")
     public void userShouldBeLoggedAndShouldBePresentAtItsOwnWall() {
         System.out.println("userShouldBeLoggedInAndShouldBePresentAtItsOwnWall");
+        System.out.println("User is right here");
     }
 
     @When("I type the message in the box")
