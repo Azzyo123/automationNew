@@ -11,6 +11,7 @@ public class PostSteps {
     public void userShouldBeLoggedAndShouldBePresentAtItsOwnWall() {
         System.out.println("userShouldBeLoggedInAndShouldBePresentAtItsOwnWall");
         System.out.println("User is right here");
+        System.out.println("This is my commit from feature into master");
     }
 
     @When("I type the message in the box")
