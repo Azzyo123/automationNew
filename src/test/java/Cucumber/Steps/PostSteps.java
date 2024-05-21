@@ -13,7 +13,6 @@ public class PostSteps {
         System.out.println("User is right here");
         System.out.println("This is my commit from feature into master");
     }
-
     @When("I type the message in the box")
     public void iTypeTheMessageInTheBox() {
         System.out.println("iTypeTheMessageInTheBox");
@@ -23,7 +22,6 @@ public class PostSteps {
     public void iClickOnThePostButton() {
         System.out.println("clickOnPostButton");
     }
-
     @Then("The message should get posted")
     public void theMessageShouldGetPosted() {
         System.out.println("theMessageShouldGetPosted");
