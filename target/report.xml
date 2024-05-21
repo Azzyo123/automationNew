@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.499" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Post feature of facebook" name="Post a message on  user wall" time="0.026">
+<system-out><![CDATA[
+Given User should be logged and should be present at its own wall...........passed
+When I type the message in the box..........................................passed
+And I click on the post button..............................................passed
+Then The message should get posted..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Post feature of facebook" name="Post a video on user wall" time="0.005">
+<system-out><![CDATA[
+Given User should be logged and at its own wall.............................passed
+When the user selects a video...............................................passed
+And click on send...........................................................passed
+Then the video should be displayed on the wall..............................passed
+]]></system-out>
+</testcase>
+</testsuite>
